@@ -1,0 +1,12 @@
+For the application to work, you need to install ffmpeg.
+Install the whisper, yt_dlp, pyperclip, gtts, and requests packages.
+pip install yt-dlp openai-whisper requests pyperclip gtts
+
+
+To turn it on:
+
+In the clipboard, put the link to the YouTube video you want to translate.
+python mp3Translate [source language] [target language]
+
+
+The mp3 folder contains output.mp3, (the translated file) and source.mp3, (the source file).
